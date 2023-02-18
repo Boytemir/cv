@@ -68,6 +68,9 @@ h1, h2{
 h3, h4, h5, h6{
     font-weight: 500;
 }
+h4 span{
+    font-weight: 400;
+}
 img{
     max-width: 100%;
     vertical-align: middle;
@@ -299,6 +302,10 @@ About Section
 }
 .about-text .tab-content{
     padding: 40px 0;
+    display: none;
+}
+.about-text .tab-content.active{
+    display: block;
 }
 .about-text .timeline-item{
     margin-bottom: 30px;
@@ -328,4 +335,7 @@ About Section
     font-size: 18px;
     text-transform: capitalize;
     margin: 0 0 10px;
+}
+.about-text .btn{
+    margin: 0 15px 15px 0;
 }
